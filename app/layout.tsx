@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'CodeHub - College Coding Resources',
+  title: 'CodeHatch - College Coding Resources',
   description: 'Ultimate coding resources hub for college students. Learn DSA, Web Dev, Mobile Dev, AI/ML, Blockchain and more from top instructors.',
 };
 
