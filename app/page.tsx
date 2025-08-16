@@ -896,7 +896,7 @@ export default function Home() {
       <footer className="bg-white border-t mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-gray-600">
-            <p>© 2025 CodeHub - Empowering College Students with Quality Coding Resources</p>
+            <p>© 2025 codehatch - Empowering College Students with Quality Coding Resources</p>
             <p className="mt-2 text-sm">
               All resources are curated from top instructors and platforms. Visit their channels to support them!
             </p>
