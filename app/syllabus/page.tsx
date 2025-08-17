@@ -1131,7 +1131,7 @@ export default function SyllabusPage() {
                     <CheckCircle className="w-4 h-4 mt-0.5 text-green-500" />
                    
              
-  ✅ <strong>View Imp Algos:</strong>{" "}
+  <strong>View Imp Algos:</strong>{" "}
   <a
     href="https://algorithm-website-lac.vercel.app"
     target="_blank"
