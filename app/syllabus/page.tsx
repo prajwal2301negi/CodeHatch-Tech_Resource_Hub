@@ -1129,7 +1129,19 @@ export default function SyllabusPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-4 h-4 mt-0.5 text-green-500" />
-                    View Imp Algos: https://algorithm-website-lac.vercel.app
+                   
+             
+  ✅ <strong>View Imp Algos:</strong>{" "}
+  <a
+    href="https://algorithm-website-lac.vercel.app"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 underline"
+  >
+    Algorithm Website
+  </a>
+
+
                   </li>
                 </ul>
               </div>
