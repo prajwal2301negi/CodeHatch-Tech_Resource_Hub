@@ -1127,6 +1127,10 @@ export default function SyllabusPage() {
                     <CheckCircle className="w-4 h-4 mt-0.5 text-green-500" />
                     Track your progress and celebrate milestones
                   </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="w-4 h-4 mt-0.5 text-green-500" />
+                    View Imp Algos: https://algorithm-website-lac.vercel.app
+                  </li>
                 </ul>
               </div>
             </div>
