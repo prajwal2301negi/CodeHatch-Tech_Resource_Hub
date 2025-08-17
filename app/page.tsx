@@ -605,7 +605,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
               <Card className="text-center">
                 <CardContent className="pt-6">
-                  <div className="text-3xl font-bold text-blue-600">11</div>
+                  <div className="text-3xl font-bold text-blue-600">13</div>
                   <div className="text-gray-600">Categories</div>
                 </CardContent>
               </Card>
