@@ -843,6 +843,15 @@ export default function Home() {
             <p className="mt-2 text-sm">
               All resources are curated from top instructors and platforms. Visit their channels to support them!
             </p>
+               ✅ <strong>View Imp Algos:</strong>{" "}
+  <a
+    href="https://algorithm-website-lac.vercel.app"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 underline"
+  >
+    Algorithm Website
+  </a>
           </div>
         </div>
       </footer>
