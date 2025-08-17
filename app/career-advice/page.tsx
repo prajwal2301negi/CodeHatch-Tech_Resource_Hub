@@ -708,7 +708,15 @@ export default function CareerAdvicePage() {
               <p className="text-gray-600">
                 Remember: Every expert was once a beginner. Your journey starts with a single step. 
                 Follow this roadmap, stay consistent, and you'll achieve your dreams! 🚀
-                View Imp Algos: https://algorithm-website-lac.vercel.app
+                  ✅ <strong>View Imp Algos:</strong>{" "}
+  <a
+    href="https://algorithm-website-lac.vercel.app"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 underline"
+  >
+    Algorithm Website
+  </a>
               </p>
             </div>
           </CardContent>
