@@ -649,64 +649,7 @@ export default function Home() {
                 </div>
               </div>
               
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                {roadmapData.map((year, index) => (
-                  <Card key={year.year} className="relative overflow-hidden hover:shadow-xl transition-all duration-300">
-                    <div className={`absolute top-0 left-0 w-full h-2 ${year.color}`}></div>
-                    <CardHeader className="pb-4">
-                      <div className="flex items-center gap-4">
-                        <div className={`w-12 h-12 rounded-full ${year.color} flex items-center justify-center text-white`}>
-                          {year.icon}
-                        </div>
-                        <div>
-                          <CardTitle className="text-xl">{year.year}</CardTitle>
-                          <CardDescription className="text-lg font-medium text-gray-700">
-                            {year.title}
-                          </CardDescription>
-                        </div>
-                      </div>
-                    </CardHeader>
-                    <CardContent className="space-y-4">
-                      <div className="bg-gray-50 p-4 rounded-lg">
-                        <div className="flex items-center gap-2 mb-2">
-                          <Target className="w-4 h-4 text-gray-600" />
-                          <span className="font-medium text-gray-700">Primary Focus</span>
-                        </div>
-                        <p className="text-gray-800 font-medium">{year.focus}</p>
-                      </div>
-                      
-                      <div>
-                        <h4 className="font-medium text-gray-700 mb-3 flex items-center gap-2">
-                          <CheckCircle className="w-4 h-4" />
-                          Key Goals
-                        </h4>
-                        <ul className="space-y-2">
-                          {year.goals.map((goal, goalIndex) => (
-                            <li key={goalIndex} className="flex items-start gap-2 text-sm text-gray-600">
-                              <ArrowRight className="w-3 h-3 mt-1 text-gray-400 flex-shrink-0" />
-                              {goal}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                      
-                      <div className="flex flex-wrap gap-2">
-                        {year.resources.map((resource, resourceIndex) => (
-                          <Badge key={resourceIndex} variant="secondary" className="text-xs">
-                            {resource}
-                          </Badge>
-                        ))}
-                      </div>
-                      
-                      <div className="bg-blue-50 border-l-4 border-blue-400 p-3 rounded">
-                        <p className="text-sm text-blue-800 font-medium">
-                          💡 {year.tip}
-                        </p>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
+             
               
               {/* Success Timeline */}
               <div className="mt-12 bg-gradient-to-r from-blue-50 to-purple-50 p-8 rounded-xl">
