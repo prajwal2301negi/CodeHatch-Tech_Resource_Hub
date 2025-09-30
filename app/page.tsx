@@ -484,10 +484,10 @@ const categories: Category[] = [
       level: 'intermediate'
     },
     {
-      id: 'lld-shrayansh',
+      id: 'lld-coderarmy',
       title: 'Low Level Design (LLD)',
       description: 'Detailed design patterns and object-oriented modeling for interviews',
-      instructor: 'Concept and Coding by Shrayansh',
+      instructor: 'Coder Army',
       type: 'playlist',
       link: 'https://youtube.com/@coderarmy9?si=pXz1a1fx73_B7zAq',
       level: 'intermediate'
