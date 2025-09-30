@@ -489,7 +489,7 @@ const categories: Category[] = [
       description: 'Detailed design patterns and object-oriented modeling for interviews',
       instructor: 'Concept and Coding by Shrayansh',
       type: 'playlist',
-      link: 'https://youtube.com/@conceptandcodingbyshrayansh?si=guhBJYFijzX7DxkT',
+      link: 'https://youtube.com/@coderarmy9?si=pXz1a1fx73_B7zAq',
       level: 'intermediate'
     }
   ]
