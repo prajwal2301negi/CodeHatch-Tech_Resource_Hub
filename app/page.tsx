@@ -475,16 +475,26 @@ const categories: Category[] = [
   color: 'bg-gradient-to-br from-yellow-500 to-yellow-700',
   resources: [
     {
-      id: 'systemdesign-bytebytego',
-      title: 'ByteByteGo - System Design',
-      description: 'In-depth system design concepts by Alex Xu',
-      instructor: 'ByteByteGo',
+      id: 'hld-shrayansh',
+      title: 'High Level Design (HLD)',
+      description: 'Learn scalable system architecture, components, and design trade-offs',
+      instructor: 'Concept and Coding by Shrayansh',
       type: 'playlist',
-      link: 'https://www.youtube.com/ByteByteGo',
+      link: 'https://youtube.com/@conceptandcodingbyshrayansh?si=guhBJYFijzX7DxkT',
+      level: 'intermediate'
+    },
+    {
+      id: 'lld-shrayansh',
+      title: 'Low Level Design (LLD)',
+      description: 'Detailed design patterns and object-oriented modeling for interviews',
+      instructor: 'Concept and Coding by Shrayansh',
+      type: 'playlist',
+      link: 'https://youtube.com/@conceptandcodingbyshrayansh?si=guhBJYFijzX7DxkT',
       level: 'intermediate'
     }
   ]
 }
+
 
 ];
 
