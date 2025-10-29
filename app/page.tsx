@@ -86,6 +86,26 @@ const categories: Category[] = [
         level: 'beginner'
       },
       {
+        id: 'code-and-debug',
+        title: 'Data Structures and Algorithms with Python',
+        description: '230 video lectures on DSA',
+        instructor: 'Anirudh Khurana',
+        type: 'playlist',
+        link: 'https://www.youtube.com/@codeanddebug',
+        duration: '230 videos',
+        level: 'beginner'
+      },
+      {
+        id: 'apna-college',
+        title: 'Data Structures and Algorithms with Java',
+        description: '121 video lectures on DSA',
+        instructor: 'Shradha Dhattarwal',
+        type: 'playlist',
+        link: 'https://www.youtube.com/@ApnaCollegeOfficial',
+        duration: '121 videos',
+        level: 'beginner'
+      },
+      {
         id: 'leetcode',
         title: 'LeetCode Practice',
         description: 'Solve coding problems and prepare for interviews',
